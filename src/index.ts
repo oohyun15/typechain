@@ -1,5 +1,17 @@
-const sayHi = (nickname: string, age: number, gender: string) => {
-  console.log(`Hi ${nickname}, You are ${age} and ${gender}.`)
+interface Human {
+  nickname: string
+  age: number
+  gender: string
 }
 
-sayHi("Potter", 26, "Male")
+const person = {
+  nickname: "Potter",
+  age: 26,
+  gender: "Male"
+}
+
+const sayHi = (person: Human) => {
+  console.log(`Hi ${person.nickname}, You are ${person.age} and ${person.gender}.`)
+}
+
+sayHi(person)
