@@ -1,0 +1,12 @@
+{
+  "name": "oohyun15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/oohyun15/typechain.git",
+  "author": "oohyun15 <sakiss4774@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
